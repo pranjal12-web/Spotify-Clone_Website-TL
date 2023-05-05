@@ -1,0 +1,22 @@
+export const questions=[
+    {
+        id:1,
+        question:"hii",
+        answer:"hi"
+    },
+    {
+        id:2,
+        question:"hello",
+        answer:"heyy"
+    },
+    {
+        id:3,
+        question:"how",
+        answer:"mmm"
+    },
+    {
+        id:4,
+        question:"when",
+        answer:"iybdg"
+    }
+]

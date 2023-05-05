@@ -1,0 +1,25 @@
+.accordian_box{
+    padding: 1rem 2rem;
+    background-color: white;
+    border: 1.5px solid blueviolet;
+    margin-bottom: 2 rem;
+    border-radius: 9px;
+    text-align: left;
+    width: 500px;
+}
+
+.ques-icon-div{
+    display: flex;
+    flex-direction: row;
+}
+.ques-ans-div{
+    color: black;
+}
+.ques-ans-div h3{
+    justify-content: center;
+    align-items: center;
+}
+.icon-div{
+    justify-content: center;
+    align-items: center;
+}

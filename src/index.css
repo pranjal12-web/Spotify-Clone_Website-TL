@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: black;
+	--mainColorLight: #5767aa;
+	--secondaryColor: green;
+	--textColor: #eee;
+}
+
+header {
+	display: flex;
+	align-items: right;
+	justify-content: space-between;
+	height: 60px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+
+
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+
+.get-spotify {
+background-color: white;
+color: black;
+border-radius: 40px;
+padding: 15px;
+}
+/* .Part5{
+	background: linear-gradient(180deg,#f001aceb 0,#5900be);
+	background-image:url("https://spotify-landing-page-silk.vercel.app/static/media/lets-play.ffb77e67e29a446c2e65.svg");
+	height: 700px;
+} */
+
+@media only screen and (max-width: 991px){
+	.ready_box {
+		font-size: 3rem;
+	}
+}
+
+
+.ready_box {
+    background: linear-gradient(90deg,#f001aceb 0,#5900be);
+    font-size: 4rem;
+    height: 50vh;
+}
+.content-text{
+	
+	
+	color: white;
+	font-size: 70px;
+	height: 600px;
+	justify-content: space-evenly;
+	display: flex;
+	flex-direction: column;
+	width: 700px; 
+	
+	float: right;
+	margin-right: 280px; 
+	
+}
+.content{
+	background: linear-gradient(90deg,#f001aceb 0,#5900be);
+}
+.content1{
+	background: url("https://spotify-landing-page-silk.vercel.app/static/media/lets-play.ffb77e67e29a446c2e65.svg") no-repeat scroll 33% 79%/90%;
+
+}
+.ready, .ready_bg {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+	color: white;
+}
+
+.ready_bg {
+    background: url("https://spotify-landing-page-silk.vercel.app/static/media/lets-play.ffb77e67e29a446c2e65.svg") no-repeat scroll 33% 79%/90%;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* horizontal menu styles */
+.menu,.menu1{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-item,.menu-item1 {
+	flex: 1;
+	text-align: center;
+	list-style-type: none;
+}
+
+/* vertical menu styles */
+@media (max-width: 600px) {
+	.menu,.menu1 {
+	flex-direction: column;
+	}
+	.menu-item {
+	flex: none;
+	width: 100%;
+	}
+}
+.menu-item1 {
+	color: white;
+	font-size: 15px;
+}
+.menu-item1 a:hover{
+	color: var(--secondaryColor);
+}
+.menu1{
+	background-color: black;
+}
+
+.Why-Spotify{
+	font-size: 30px;
+
+}
+
+
+.free, .free_box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+	color: white;
+}
+.free_box {
+    background: linear-gradient(180deg,#f001aceb 0,#5900be);
+    flex-direction: column;
+    font-size: 2.5rem;
+    height: 50vh;
+}
+
+.svg-inline--fa {
+	height: 40px;
+	margin-left: 15px;
+}
+.svg-inline--fa :hover {
+	color:var(--secondaryColor);
+}
+
+#f-info_right {
+    justify-content: flex-end;
+    width: 20%;
+	align-items: right;
+}
+.f-info_left, #f-info_right {
+    align-items: center;
+    display: flex;
+    height: 100%;
+	background-color: black;
+	color: white;
+	
+}
+.img{
+	margin-top: 100px;
+	
+	margin-right: 150px;
+	margin-left: 500px;
+}
+
+/* .footer_info, .footer_language {
+    color: #c3c1c1;
+    display: flex;
+    font-size: .6rem;
+} */
+

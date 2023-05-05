@@ -1,0 +1,9 @@
+.faq-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem auto;
+}
+.faq-title{
+    margin-right: 3rem;
+}

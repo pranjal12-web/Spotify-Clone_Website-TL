@@ -1,0 +1,24 @@
+
+{
+    "answers":[
+        {"title":"How do I create a playlist?",
+        "body":"Playlists are a great way to save collections of music, either for your own listening or to share.",
+         "id":1
+        },
+    
+        {"title":"How do I activate Data Saver mode?",
+        "body":"1. Tap Home",
+        "id":2
+        },
+    
+        {"title":"Is it only possible to shuffle play music?",
+        "body":"Any playlist with the shuffle icon will play on shuffle.Some playlists won't have the shuffle icon, so you can tap any song to play it.",
+         "id":3},
+
+        {"title":"Where can I find Podcasts?",
+        "body":"Tap Search. Under Browse All, tap Podcasts.",
+        "id":3}
+
+    ]
+    }
+    
